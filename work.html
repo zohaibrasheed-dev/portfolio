@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Work | ZR_Dev</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!-- TAILWIND -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="fixed top-0 left-0 w-full header">
+        <div class="custom-container">
+            <div class="flex flex-wrap items-center justify-between hdr-content">
+                <div class="logo">
+                    <a href="index.html#home"><img src="assets/images/zr-logo.png" alt="Logo"></a>
+                </div>
+                <nav class="navbar">
+                    <ul class="navbar-items">
+                        <li><a href="index.html#home" class="navbar-link">Home</a></li>
+                        <li><a href="index.html#aboutMe" class="navbar-link">About</a></li>
+                        <li><a href="index.html#myWork" class="navbar-link active">My Work</a></li>
+                        <li><a href="index.html#reviews" class="navbar-link">Testimonials</a></li>
+                        <li><a href="index.html#experience" class="navbar-link">Experience</a></li>
+                    </ul>
+                </nav>
+                <div class="block hamburger-menu lg:hidden">
+                    <div class="menuBtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="hidden email-sec lg:block">
+                    <a href="mailto:zohaibrasheedcr7@gmail.com" class="flex items-center hdr-contact"><img src="assets/images/email-icon.png" alt="Email Icon"><span class="ml-2 font-medium white">Let's Connect</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="pt-30 portfolio-sec md:pt-36 lg:pt-44 xl:pt-56" id="myWork">
+            <div class="custom-container">
+                <div class="text-center work-header">
+                    <span class="block fadeInDown info-tag">My Portfolio</span>
+                    <h1 class="my-4 leading-[1.1em] h1 white fadeInDown">650+ Projects. <br> <span class="lightPurple">Zero Compromise</span></h1>
+                    <p class="p-lg paleBlue fadeInDown delayedOne">A curated selection of front-end work <br class="block md:hidden"> delivered for US agencies,<br class="hidden md:block">  premium <br class="block md:hidden"> beverage brands, and lifestyle <br class="block md:hidden"> companies worldwide.</p>
+                </div>
+
+                <div class="my-10 mt-10 lg:mt-14 xl:mt-20 2xl:mt-24 filter">
+                    <div class="container">
+                        <div class="flex justify-center gap-3 md:gap-4 lg:gap-6 work-filter fadeInDown delayedOne">
+                            <button type="button" data-content="websites" class="filterBtn active">Brand Websites</button>
+                            <button type="button" data-content="email-templates" class="filterBtn">Email Templates</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- WEBSITES -->
+                <div class="grid gap-4 lg:gap-5 xl:gap-4 2xl:gap-6 md:grid-cols-2 xl:grid-cols-3 work-content fadeInDown delayedTwo" id="websites">
+                
+                    <div class="project-card">
+                        <a href="https://drinkcapetide.com/?ref=adv" target="_blank" class="flex flex-col h-full">
+                            <span class="proj-thumbnail"><img src="assets/images/ec-thumbnail.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90"></span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Elijah Craig — High-end Whiskey Brand Since 1789</span>
+                                <span class="proj-desc p-lg mistBlue">Developed scalable, performance-focused frontend components ensuring a polished and consistent user experience.</span>
+                            </span>
+                            <span class="flex items-center justify-between mt-auto">
+                                <span class="flex skillSet">
+                                    <span class="skillIcon"><img src="assets/images/html5.png" alt="html-icon"></span>
+                                    <span class="skillIcon css"><img src="assets/images/css.png" alt="css-icon"></span>
+                                    <span class="skillIcon"><img src="assets/images/js.png" alt="js-icon"></span>
+                                </span>
+                                <span class="external-link">Check Live Site <img src="assets/images/purple-arrow.svg" alt="Arrow"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://fuegohard.com/" target="_blank" class="flex flex-col h-full">
+                            <span class="proj-thumbnail"><img src="assets/images/fuegoHard-thumbnail.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90"></span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Fuego Hard — Bold beverage brand experience</span>
+                                <span class="proj-desc p-lg mistBlue">Built a responsive, visually engaging frontend for a high-energy brand with smooth interactions and pixel-perfect execution.</span>
+                            </span>
+                            <span class="flex items-center justify-between mt-auto">
+                                <span class="flex skillSet">
+                                    <span class="skillIcon"><img src="assets/images/html5.png" alt="html-icon"></span>
+                                    <span class="skillIcon css"><img src="assets/images/css.png" alt="css-icon"></span>
+                                    <span class="skillIcon"><img src="assets/images/js.png" alt="js-icon"></span>
+                                </span>
+                                <span class="external-link">Check Live Site <img src="assets/images/purple-arrow.svg" alt="Arrow"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://evanwilliams.com?ref=adv" target="_blank" class="flex flex-col h-full">
+                            <span class="proj-thumbnail"><img src="assets/images/ew-buy-now.png" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90"></span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Evan Williams — Global brand web experience</span>
+                                <span class="proj-desc p-lg mistBlue">Built responsive, SEO-friendly UI aligned with brand standards and optimized for performance across devices.</span>
+                            </span>
+                            <span class="flex items-center justify-between mt-auto">
+                                <span class="flex skillSet">
+                                    <span class="skillIcon"><img src="assets/images/html5.png" alt="html-icon"></span>
+                                    <span class="skillIcon css"><img src="assets/images/css.png" alt="css-icon"></span>
+                                    <span class="skillIcon"><img src="assets/images/js.png" alt="js-icon"></span>
+                                </span>
+                                <span class="external-link">Check Live Site <img src="assets/images/purple-arrow.svg" alt="Arrow"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="" target="_blank" class="flex flex-col h-full">
+                            <span class="proj-thumbnail"><img src="assets/images/rittenHouse-thumbnail.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90"></span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Rittenhouse Rye — Classic brand, modern interface</span>
+                                <span class="proj-desc p-lg mistBlue"> Implemented clean, responsive layouts with a focus on usability, performance, and visual consistency.</span>
+                            </span>
+                            <span class="flex items-center justify-between mt-auto">
+                                <span class="flex skillSet">
+                                    <span class="skillIcon"><img src="assets/images/html5.png" alt="html-icon"></span>
+                                    <span class="skillIcon css"><img src="assets/images/css.png" alt="css-icon"></span>
+                                    <span class="skillIcon"><img src="assets/images/js.png" alt="js-icon"></span>
+                                </span>
+                                <span class="external-link">Check Live Site <img src="assets/images/purple-arrow.svg" alt="Arrow"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://method1.com/" target="_blank" class="flex flex-col h-full">
+                            <span class="proj-thumbnail"><img src="assets/images/m1-thumb.jpg" alt="Thumbnail"
+                                    class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90"></span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span
+                                        class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US
+                                    Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Method1 — Agency Platform
+                                    Redesign</span>
+                                <span class="proj-desc p-lg mistBlue">Redesigned and developed a high-performance agency website
+                                    showcasing premium brands with a modern, scalable frontend architecture.</span>
+                            </span>
+                            <span class="flex items-center justify-between mt-auto">
+                                <span class="flex skillSet">
+                                    <span class="skillIcon"><img src="assets/images/html5.png" alt="html-icon"></span>
+                                    <span class="skillIcon css"><img src="assets/images/css.png" alt="css-icon"></span>
+                                    <span class="skillIcon"><img src="assets/images/js.png" alt="js-icon"></span>
+                                </span>
+                                <span class="external-link">Check Live Site <img src="assets/images/purple-arrow.svg" alt="Arrow"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://oldfitzgeraldbourbon.com/?ref=adv" target="_blank" class="flex flex-col h-full">
+                            <span class="proj-thumbnail"><img src="assets/images/oldFitz-thumbnail.jpg" alt="Thumbnail" class="object-cover object-top w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90"></span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Old Fitzgerald — Heritage Bourbon Since 1870</span>
+                                <span class="proj-desc p-lg mistBlue">Delivered a refined, responsive interface blending heritage storytelling with modern performance and clean UI structure.</span>
+                            </span>
+                            <span class="flex items-center justify-between mt-auto">
+                                <span class="flex skillSet">
+                                    <span class="skillIcon"><img src="assets/images/html5.png" alt="html-icon"></span>
+                                    <span class="skillIcon css"><img src="assets/images/css.png" alt="css-icon"></span>
+                                    <span class="skillIcon"><img src="assets/images/js.png" alt="js-icon"></span>
+                                </span>
+                                <span class="external-link">Check Live Site <img src="assets/images/purple-arrow.svg" alt="Arrow"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://drinkcapetide.com/?ref=adv" target="_blank" class="flex flex-col h-full">
+                            <span class="proj-thumbnail"><img src="assets/images/cape-tide-thumbnail.jpg" alt="Thumbnail" class="object-cover object-top w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90"></span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Cape Tide — Modern lifestyle brand website</span>
+                                <span class="proj-desc p-lg mistBlue">Crafted a clean, responsive frontend focused on simplicity, speed, and seamless cross-device experience.</span>
+                            </span>
+                            <span class="flex items-center justify-between mt-auto">
+                                <span class="flex skillSet">
+                                    <span class="skillIcon"><img src="assets/images/html5.png" alt="html-icon"></span>
+                                    <span class="skillIcon css"><img src="assets/images/css.png" alt="css-icon"></span>
+                                    <span class="skillIcon"><img src="assets/images/js.png" alt="js-icon"></span>
+                                </span>
+                                <span class="external-link">Check Live Site <img src="assets/images/purple-arrow.svg" alt="Arrow"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://fizzdistrict.com/" target="_blank" class="flex flex-col h-full">
+                            <span class="proj-thumbnail"><img src="assets/images/fD-thumbnail.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90"></span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Fizz District — Modern Soda Shop Experience</span>
+                                <span class="proj-desc p-lg mistBlue">Fresh, energetic website for a Louisville handcrafted soda brand. Interactive product sections, customisable drink builder UI, and an app download CTA — all built to reflect the brand's clean and playful identity.</span>
+                            </span>
+                            <span class="flex items-center justify-between mt-auto">
+                                <span class="flex skillSet">
+                                    <span class="skillIcon"><img src="assets/images/html5.png" alt="html-icon"></span>
+                                    <span class="skillIcon css"><img src="assets/images/css.png" alt="css-icon"></span>
+                                    <span class="skillIcon"><img src="assets/images/js.png" alt="js-icon"></span>
+                                </span>
+                                <span class="external-link">Check Live Site <img src="assets/images/purple-arrow.svg" alt="Arrow"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card">
+                        <a href="https://theconsumerbehaviorlab.com/" target="_blank" class="flex flex-col h-full">
+                            <span class="proj-thumbnail"><img src="assets/images/cbl-thumbnail.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90"></span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Consumer Behavior Lab — Behavioral Science Platform</span>
+                                <span class="proj-desc p-lg mistBlue">Content-rich frontend for a top-rated behavioral science podcast and brand marketing platform. Built to support a podcast library of 100+ episodes, book launch, masterclass, and newsletter — all in a clean, editorial layout optimized for engagement.</span>
+                            </span>
+                            <span class="flex items-center justify-between mt-auto">
+                                <span class="flex skillSet">
+                                    <span class="skillIcon"><img src="assets/images/html5.png" alt="html-icon"></span>
+                                    <span class="skillIcon css"><img src="assets/images/css.png" alt="css-icon"></span>
+                                    <span class="skillIcon"><img src="assets/images/js.png" alt="js-icon"></span>
+                                </span>
+                                <span class="external-link">Check Live Site <img src="assets/images/purple-arrow.svg" alt="Arrow"></span>
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+
+
+                <!-- EMAIL TEMPLATES -->
+                <div class="grid hidden gap-4 lg:gap-5 xl:gap-4 2xl:gap-6 md:grid-cols-2 xl:grid-cols-3 work-content" id="email-templates">
+                    
+                    <div class="project-card emailCard" data-img="assets/images/email-EC-reminder.png">
+                        <a href="#" target="_blank" class="flex flex-col h-full">
+                            <span class="relative proj-thumbnail">
+                                <img src="assets/images/ecReminder-thumbnail.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90">
+                                <span class="hidden viewText lg:block">View</span>
+                                <span class="block viewText-mob lg:hidden">Click To View</span>
+                            </span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Elijah Craig — Event Reminder Campaign</span>
+                                <span class="proj-desc p-lg mistBlue">Responsive promotional email built for Old Fashioned Week®, featuring bold visuals, strong CTA focus, and cross-client compatibility across Gmail, Outlook, and mobile devices.</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card emailCard" data-img="assets/images/email-EC-Register.png">
+                        <a href="#" target="_blank" class="flex flex-col h-full">
+                            <span class="relative proj-thumbnail">
+                                <img src="assets/images/ecRegister-thumbnail.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90">
+                                <span class="hidden viewText lg:block">View</span>
+                                <span class="block viewText-mob lg:hidden">Click To View</span>
+                            </span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Elijah Craig — Registration Confirmation</span>
+                                <span class="proj-desc p-lg mistBlue">Clean, conversion-focused confirmation email designed to onboard participants, ensuring clarity, responsiveness, and consistent rendering across all major email clients.</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card emailCard" data-img="assets/images/email-HHD.png">
+                        <a href="#" target="_blank" class="flex flex-col h-full">
+                            <span class="relative proj-thumbnail">
+                                <img src="assets/images/hhd-thumbnail.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90">
+                                <span class="hidden viewText lg:block">View</span>
+                                <span class="block viewText-mob lg:hidden">Click To View</span>
+                            </span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Heaven Hill — Product Storytelling Email</span>
+                                <span class="proj-desc p-lg mistBlue">Content-driven email template crafted to highlight product storytelling with structured layout, optimized typography, and seamless responsiveness across devices.</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card emailCard" data-img="assets/images/email-EW-Bourbonation.png">
+                        <a href="#" target="_blank" class="flex flex-col h-full">
+                            <span class="relative proj-thumbnail">
+                                <img src="assets/images/ewBourbonation-thumbnail.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90">
+                                <span class="hidden viewText lg:block">View</span>
+                                <span class="block viewText-mob lg:hidden">Click To View</span>
+                            </span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Evan Williams — Bourbon Nation Campaign</span>
+                                <span class="proj-desc p-lg mistBlue">Developed a high-impact promotional email combining rich visuals and structured content, optimized for engagement and consistent performance across email clients.</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card emailCard" data-img="assets/images/email-Larceny.png">
+                        <a href="#" target="_blank" class="flex flex-col h-full">
+                            <span class="relative proj-thumbnail">
+                                <img src="assets/images/larcenyLifestyle-thumbnail.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90">
+                                <span class="hidden viewText lg:block">View</span>
+                                <span class="block viewText-mob lg:hidden">Click To View</span>
+                            </span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Larceny — Lifestyle Campaign Email</span>
+                                <span class="proj-desc p-lg mistBlue">Designed and developed a visually engaging email focused on brand storytelling, featuring modular sections and optimized rendering across multiple email clients.</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card emailCard" data-img="assets/images/email-larceny1.png">
+                        <a href="#" target="_blank" class="flex flex-col h-full">
+                            <span class="relative proj-thumbnail">
+                                <img src="assets/images/larcenyThumbnail3.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90">
+                                <span class="hidden viewText lg:block">View</span>
+                                <span class="block viewText-mob lg:hidden">Click To View</span>
+                            </span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Larceny — Product Experience Campaign</span>
+                                <span class="proj-desc p-lg mistBlue">Interactive-style email layout with multiple content sections, crafted using table-based structure to ensure reliable performance across Outlook, Gmail, and mobile devices.</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card emailCard" data-img="assets/images/email-larceny2.png">
+                        <a href="#" target="_blank" class="flex flex-col h-full">
+                            <span class="relative proj-thumbnail">
+                                <img src="assets/images/larceny-productExp-thumbnail.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90">
+                                <span class="hidden viewText lg:block">View</span>
+                                <span class="block viewText-mob lg:hidden">Click To View</span>
+                            </span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Larceny — Multi-Section Campaign</span>
+                                <span class="proj-desc p-lg mistBlue">Complex email template with stacked content blocks and promotional sections, built with scalable structure and cross-client consistency in mind.</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card emailCard" data-img="assets/images/email-EC4.png">
+                        <a href="#" target="_blank" class="flex flex-col h-full">
+                            <span class="relative proj-thumbnail">
+                                <img src="assets/images/ec-PostEvent-thumbnail.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90">
+                                <span class="hidden viewText lg:block">View</span>
+                                <span class="block viewText-mob lg:hidden">Click To View</span>
+                            </span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Elijah Craig — Post-Event Campaign</span>
+                                <span class="proj-desc p-lg mistBlue">Follow-up campaign email highlighting event success and engagement, designed with strong visual hierarchy and optimized for responsiveness and readability.</span>
+                            </span>
+                        </a>
+                    </div>
+
+                    <div class="project-card emailCard" data-img="assets/images/email-MaxHoma.png">
+                        <a href="#" target="_blank" class="flex flex-col h-full">
+                            <span class="relative proj-thumbnail">
+                                <img src="assets/images/ecMaxhoma-thumbnail.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90">
+                                <span class="hidden viewText lg:block">View</span>
+                                <span class="block viewText-mob lg:hidden">Click To View</span>
+                            </span>
+                            <span class="mb-3 proj-details lg:mb-4">
+                                <span class="block mt-5 text-xs leading-loose lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                                <span class="block mt-3 mb-2 leading-tight proj-title h3 white">Elijah Craig — Limited Release Campaign (Max Homa)</span>
+                                <span class="proj-desc p-lg mistBlue">High-impact promotional email built for a limited release campaign, focusing on conversion-driven layout, bold messaging, and cross-platform email compatibility.</span>
+                            </span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!-- MODAL -->
+        <div class="fixed top-0 left-0 w-full h-screen overflow-y-auto modal-wrapper" id="emailModal">
+            <div class="flex items-start justify-center min-h-full py-1 lg:py-10">
+                <div class="modal-content">
+                    <img src="" alt="Elijah Craig Reminder Template" class="template-img">
+                    <span class="closeModal"><img src="assets/images/cross-icon.svg" alt="Cross"></span>
+                </div>        
+            </div>
+        </div>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="mt-20 lg:mt-36">
+        <div class="custom-container">
+            <div class="flex flex-col items-center justify-between gap-5 pb-5 md:pb-7 md:flex-row">
+                <span class="text-sm offWhite">Copyright &copy;2024 Zohaib Rasheed</span>
+                <div class="flex gap-2 lg:gap-3 social-icons">
+                    <a href="https://wa.me/+923344545361" target="_blank"><img src="assets/images/whatsApp.png" alt="whatsApp" class="w-10 lg:w-12"></a>
+                    <a href="https://www.linkedin.com/in/zohaib-rasheed-144952233/" target="_blank"><img src="assets/images/linkedIn.png" alt="linkedIn" class="w-10 lg:w-12"></a>
+                    <a href="#" target="_blank"><img src="assets/images/gitHub.png" alt="gitHub" class="w-10 lg:w-12"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/scrollmagic.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

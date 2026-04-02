@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page | ZR_Dev</title>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+    <!-- TAILWIND -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    
+    <!-- NAVBAR -->
+    <header class="fixed top-0 left-0 w-full header">
+        <div class="custom-container">
+            <div class="flex flex-wrap items-center justify-between hdr-content">
+                <div class="logo">
+                    <a href="index.html#home"><img src="assets/images/zr-logo.png" alt="Logo"></a>
+                </div>
+                <nav class="navbar">
+                    <ul class="navbar-items">
+                        <li><a href="#home" class="navbar-link active">Home</a></li>
+                        <li><a href="#aboutMe" class="navbar-link">About</a></li>
+                        <li><a href="#myWork" class="navbar-link">My Work</a></li>
+                        <li><a href="#reviews" class="navbar-link">Testimonials</a></li>
+                        <li><a href="#experience" class="navbar-link">Experience</a></li>
+                    </ul>
+                </nav>
+                <div class="block hamburger-menu lg:hidden">
+                    <div class="menuBtn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="hidden email-sec lg:block">
+                    <a href="mailto:zohaibrasheedcr7@gmail.com" class="flex items-center hdr-contact"><img src="assets/images/email-icon.png" alt="Email Icon"><span class="ml-2 font-medium white">Let's Connect</span></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="pt-40 pb-24 sm:pt-48 md:pt-16 lg:pt-20 md:pb-0 hero-sec" id="home">
+        <div class="custom-container">
+            <div class="text-center hero-content">
+                <span class="block text-xs tracking-widest paleBlue sm:text-[0.875rem] xl:text-base fadeInUp">MODERN FRONT-END & EMAIL DEVELOPMENT</span>
+                <h1 class="my-3 leading-tight h1 white fadeInUp delayedOne"><strong>Building Fast, <br class="block sm:hidden"> Responsive <br class="hidden sm:block"> <span class="lightPurple">Web </span> & 
+                    <br class="block sm:hidden"> <span class="lightPurple"> Email Experiences</span></strong></h1>
+                <p class="p-lg paleBlue fadeInDown delayedTwo">Senior Front-end developer with 6+ years of <br class="block sm:hidden"> experience delivering <br class="hidden sm:block"> pixel-perfect, <br class="block sm:hidden"> responsive interfaces and bulletproof email<br> templates for global brands.</p>
+                
+                <ul class="flex flex-wrap justify-center gap-2 mx-auto mt-4 lg:mt-5 xl:mt-7 max-w-80 sm:max-w-full hero-pills fadeInDown delayedThree">
+                    <li>HTML/CSS/JS</li>
+                    <li>React</li>
+                    <li>Responsive UI</li>
+                    <li>Email/Newsletter Dev</li>
+                    <li>US Agency Experience</li>
+                </ul>
+                
+                <div class="flex justify-center mt-6 xl:mt-8 fadeInDown delayedThree">
+                    <a href="work.html" class="btn-primary">See my work <img src="assets/images/btn-arrow.svg" alt="Arrow"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PERSONAL | ABOUT -->
+    <section class="aboutSec" id="aboutMe">
+        <div class="custom-container">
+            <div class="grid grid-cols-1 gap-4 lg:gap-5 md:grid-cols-3">
+
+                <!-- ABOUT ME -->
+                <div class="md:col-span-2 personal-box boxAnimateBottom">
+                    <span class="info-tag">About Me</span>
+                    <h3 class="h3 info-title white">I build interfaces that don’t just look good —  <br class="hidden sm:block md:hidden 2xl:block"> <span class="lightPurple">they perform</span> </h3>
+                    <p class="mb-3 p-lg white info-desc">With over 6 years of hands-on experience, I specialize in translating complex designs into clean, responsive, and production-ready code. </p>
+                    <p class="p-lg white info-desc"> From working with US-based agencies to delivering solutions for premium beverage and lifestyle brands, I understand what it takes to build interfaces that feel polished, fast, and reliable across every device.</p>
+                    <video autoplay loop muted class="infoVideo">
+                        <source src="assets/videos/webView.mp4">
+                    </video>
+                </div>
+
+                <!-- TECH_STACK -->
+                <div class="personal-box boxAnimateBottom delay">
+                    <span class="info-tag">Tech stack</span>
+                    <h2 class="h3 info-title white">My Toolkit</h2>
+                    <p class="p-lg white info-desc">Technologies I use to deliver fast, scalable, and modern experiences</p>
+                    <ul class="grid gap-2 mt-5 stack-list">
+                        <li><span>HTML/CSS (SEO-friendly)</span></li>
+                        <li><span>JavaScript (ES6+)</span></li>
+                        <li><span>React (Modern UI development)</span></li>
+                        <li><span>Tailwind CSS / Bootstrap</span></li>
+                        <li><span>GSAP (Animations & micro-interactions)</span></li>
+                        <li><span class="flex items-center gap-2">Figma <img src="assets/images/right-arrow.png" alt="Right Arrow" class="w-4 invert xl:w-5"> Code</span></li>
+                        <li><span>Email Development <br> (MJML, Table-based HTML)</span></li>
+                    </ul>
+                </div>
+
+                <!-- THE INSIDE SCOOP -->
+                <div class="personal-box boxAnimateBottom delay">
+                    <span class="info-tag">The inside scoop</span>
+                    <h2 class="h3 info-title white">6+ Years. 500+ Projects. Zero Compromise.</h2>
+                    <p class="p-lg white info-desc">Delivered high-quality front-end solutions for agencies and global clients with a strong focus on performance, consistency, and clean execution.</p>
+                </div>
+
+                <!-- MY PROCESS -->
+                <div class="personal-box boxAnimateBottom delay">
+                    <span class="info-tag">My Process</span>
+                    <div class="px-4 py-3 mt-4 bg-gray-900 rounded-lg lg:px-5 lg:py-4 codeBox">
+                        <span class="block mb-3 text-gray-500">// My Development Approach</span>
+                        <ol>
+                            <li class="mb-2 leading-tight text-pink-400 xl:leading:none"><span class="text-sm font-medium text-green-400 xl:text-base">Understand the goal</span> — Not just design, but purpose</li>
+                            <li class="mb-2 leading-tight text-pink-400 xl:leading:none"><span class="text-sm font-medium text-green-400 xl:text-base">Translate design to code</span> — Pixel-perfect & responsive</li>
+                            <li class="mb-2 leading-tight text-pink-400 xl:leading:none"><span class="text-sm font-medium text-green-400 xl:text-base">Enhance with interactions</span> — Subtle, meaningful animations</li>
+                            <li class="mb-2 leading-tight text-pink-400 xl:leading:none"><span class="text-sm font-medium text-green-400 xl:text-base">Optimize & refine</span> — Performance + SEO structure</li>
+                            <li class="leading-tight text-pink-400 xl:leading:none"><span class="text-sm font-medium text-green-400 xl:text-base">Deliver & support</span> — Clean handoff with reliability</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <!-- AVAILABILITY -->
+                <div class="personal-box boxAnimateBottom delay">
+                    <span class="info-tag">AVAILABILITY</span>
+                    <h2 class="h3 white info-title">Seamless Collaboration Across Time Zones</h2>
+                    <p class="p-lg white info-desc">Experienced working with US and international teams — available for async and real-time collaboration.</p>
+                    <ul class="flex flex-wrap gap-2 mt-4 timeZones">
+                        <li>USA</li>
+                        <li>UK</li>
+                        <li>Europe</li>
+                        <li>UAE</li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- GRID ENDS -->
+        </div>
+    </section>
+
+    <!-- RECENT PROJECTS -->
+    <section class="mt-24 lg:mt-28 xl:mt-36 work-sec" id="myWork">
+        <div class="custom-container">
+            <h2 class="mb-8 leading-tight text-center xl:mb-14 h2 white fadeInUp">A Small Selection of <br> <span class="lightPurple">Recent Projects</span></h2>
+
+            <div class="grid gap-4 xl:gap-6 md:grid-cols-2 fadeIn">
+                <div class="project-card">
+                    <a href="https://method1.com/" target="_blank" class="flex flex-col h-full">
+                        <span class="proj-thumbnail"><img src="assets/images/m1-thumb.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90"></span>
+                        <span class="mb-3 proj-details lg:mb-4">
+                            <span class="block mt-5 text-xs lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                            <span class="block mt-4 mb-2 leading-tight proj-title h3 white">Method1 — Agency Platform Redesign</span>
+                            <span class="proj-desc p-lg mistBlue">Redesigned and developed a high-performance agency website showcasing premium brands with a modern, scalable frontend architecture.</span>
+                        </span>
+                        <span class="flex items-center justify-between mt-auto">
+                            <span class="flex skillSet">
+                                <span class="skillIcon"><img src="assets/images/html5.png" alt="html-icon"></span>
+                                <span class="skillIcon css"><img src="assets/images/css.png" alt="css-icon"></span>
+                                <span class="skillIcon"><img src="assets/images/js.png" alt="js-icon"></span>
+                            </span>
+                            <span class="external-link">Check Live Site <img src="assets/images/purple-arrow.svg" alt="Arrow"></span>
+                        </span>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="https://oldfitzgeraldbourbon.com/?ref=adv" target="_blank" class="flex flex-col h-full">
+                        <span class="proj-thumbnail"><img src="assets/images/oldFitz-thumbnail.jpg" alt="Thumbnail" class="object-cover object-top w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90"></span>
+                        <span class="mb-3 proj-details lg:mb-4">
+                            <span class="block mt-5 text-xs lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                            <span class="block mt-4 mb-2 leading-tight proj-title h3 white">Old Fitzgerald — Premium Bourbon Website</span>
+                            <span class="proj-desc p-lg mistBlue">Delivered a refined, responsive interface blending heritage storytelling with modern performance and clean UI structure.</span>
+                        </span>
+                        <span class="flex items-center justify-between mt-auto">
+                            <span class="flex skillSet">
+                                <span class="skillIcon"><img src="assets/images/html5.png" alt="html-icon"></span>
+                                <span class="skillIcon css"><img src="assets/images/css.png" alt="css-icon"></span>
+                                <span class="skillIcon"><img src="assets/images/js.png" alt="js-icon"></span>
+                            </span>
+                            <span class="external-link">Check Live Site <img src="assets/images/purple-arrow.svg" alt="Arrow"></span>
+                        </span>
+                    </a>
+                </div>
+                <div class="project-card">
+                    <a href="https://drinkcapetide.com/?ref=adv" target="_blank" class="flex flex-col h-full">
+                        <span class="proj-thumbnail"><img src="assets/images/ec-thumbnail.jpg" alt="Thumbnail" class="object-cover object-center w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90"></span>
+                        <span class="mb-3 proj-details lg:mb-4">
+                            <span class="block mt-5 text-xs lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                            <span class="block mt-4 mb-2 leading-tight proj-title h3 white">Elijah Craig — High-end Whiskey Brand Since 1789</span>
+                            <span class="proj-desc p-lg mistBlue">Developed scalable, performance-focused frontend components ensuring a polished and consistent user experience.</span>
+                        </span>
+                        <span class="flex items-center justify-between mt-auto">
+                            <span class="flex skillSet">
+                                <span class="skillIcon"><img src="assets/images/html5.png" alt="html-icon"></span>
+                                <span class="skillIcon css"><img src="assets/images/css.png" alt="css-icon"></span>
+                                <span class="skillIcon"><img src="assets/images/js.png" alt="js-icon"></span>
+                            </span>
+                            <span class="external-link">Check Live Site <img src="assets/images/purple-arrow.svg" alt="Arrow"></span>
+                        </span>
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <a href="https://drinkcapetide.com/?ref=adv" target="_blank" class="flex flex-col h-full">
+                        <span class="proj-thumbnail"><img src="assets/images/cape-tide-thumbnail.jpg" alt="Thumbnail" class="object-cover object-top w-full rounded-md lg:rounded-lg h-60 lg:h-70 xl:h-90"></span>
+                        <span class="mb-3 proj-details lg:mb-4">
+                            <span class="block mt-5 text-xs lg:text-sm tagline mistBlue"><span class="white p-1 bg-[#db4a4a] rounded-sm mr-1">Built at Method1</span> Frontend Developer — US Agency</span>
+                            <span class="block mt-4 mb-2 leading-tight proj-title h3 white">Cape Tide — Modern lifestyle brand website</span>
+                            <span class="proj-desc p-lg mistBlue">Crafted a clean, responsive frontend focused on simplicity, speed, and seamless cross-device experience.</span>
+                        </span>
+                        <span class="flex items-center justify-between mt-auto">
+                            <span class="flex skillSet">
+                                <span class="skillIcon"><img src="assets/images/html5.png" alt="html-icon"></span>
+                                <span class="skillIcon css"><img src="assets/images/css.png" alt="css-icon"></span>
+                                <span class="skillIcon"><img src="assets/images/js.png" alt="js-icon"></span>
+                            </span>
+                            <span class="external-link">Check Live Site <img src="assets/images/purple-arrow.svg" alt="Arrow"></span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="flex justify-center mt-8 lg:mt-14 fadeInUp delayed">
+                <a href="work.html" class="btn-primary">Explore More <img src="assets/images/btn-arrow.svg" alt="Arrow"></a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="mt-24 lg:mt-28 xl:mt-36 testimonials-sec" id="reviews">
+        <h2 class="mb-8 leading-tight text-center xl:mb-14 h2 white fadeInUp">Trusted by Clients <br> <span class="lightPurple">Who Value Quality</span></h2>
+    
+        <div class="custom-container">
+            <div class="flex flex-wrap justify-between">
+    
+                <!-- CARD 1 -->
+                <div class="reviewCard fadeInDown bg-[#111827] border border-violet-500/25 rounded-xl p-4 lg:p-7 w-full md:w-[49%] mb-4 md:mb-0 flex flex-col">
+                    <div class="text-5xl quote-mark text-violet-400 opacity-30">"</div>
+                    <div class="flex items-center gap-1 mb-4">
+                        <span class="text-sm lg:text-base text-amber-400">★★★★★</span>
+                        <span class="ml-1 text-xs font-semibold text-amber-400">5.0</span>
+                    </div>
+                    <p class="mb-4 text-sm italic leading-relaxed text-gray-300 lg:text-base"> Unbelievable experience. He provided a great solution for an idea that was written only on paper. <span class="not-italic font-semibold text-violet-300"> Zohaib is one of the best, if not the best freelancer I've worked with.</span> He has truly advanced knowledge of HTML, CSS and JavaScript, and is able to make ideas come to life in quite little time. If I could rate my experience, I would need more than 5 stars. </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 text-xs text-gray-400 border rounded-full bg-white/5 border-white/10">Solution Oriented</span>
+                        <span class="px-3 py-1 text-xs text-gray-400 border rounded-full bg-white/5 border-white/10">Collaborative</span>
+                        <span class="px-3 py-1 text-xs text-gray-400 border rounded-full bg-white/5 border-white/10">Professional</span>
+                    </div>
+                    <div class="mt-auto author-details">
+                        <div class="h-px bg-white/[0.07] mb-4"></div>
+                        <div class="flex items-center gap-3">
+                            <div class="flex items-center justify-center flex-shrink-0 w-10 h-10 text-sm font-bold rounded-full bg-violet-500/20 text-violet-300"> D </div>
+                            <div>
+                                <p class="text-sm font-semibold text-white">David</p>
+                                <p class="text-xs text-gray-500">Client · New York, USA · 5.0 of 82 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- CARD 2 -->
+                <div class="reviewCard fadeInDown delayedOne bg-[#111827] border border-violet-500/25 rounded-xl p-4 lg:p-7 w-full md:w-[49%] flex flex-col">
+                    <div class="text-5xl quote-mark text-violet-400 opacity-30">"</div>
+                    <div class="flex items-center gap-1 mb-4">
+                        <span class="text-sm lg:text-base text-amber-400">★★★★★</span>
+                        <span class="ml-1 text-xs font-semibold text-amber-400">5.0</span>
+                    </div>
+                    <p class="mb-4 text-sm italic leading-relaxed text-gray-300 lg:text-base"> I really felt like a charm working with him, and I would repeat the experience as soon as possible.
+                        <span class="not-italic font-semibold text-violet-300"> He won't stop working until he finds a solution that matches your expectations.</span> He delivers such great service that it's impossible to think
+                        twice about hiring him. One of the best services I've experienced. </p>
+                    <!-- Badges -->
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="px-3 py-1 text-xs text-gray-400 border rounded-full bg-white/5 border-white/10">Detail Oriented</span>
+                        <span class="px-3 py-1 text-xs text-gray-400 border rounded-full bg-white/5 border-white/10">Fast Delivery</span>
+                        <span class="px-3 py-1 text-xs text-gray-400 border rounded-full bg-white/5 border-white/10">Clean Code</span>
+                    </div>
+                    <div class="mt-auto author-details">
+                        <div class="h-px bg-white/[0.07] mb-4"></div>
+                        <div class="flex items-center gap-3">
+                            <div class="flex items-center justify-center flex-shrink-0 w-10 h-10 text-sm font-bold text-blue-300 rounded-full bg-blue-500/20"> M</div>
+                            <div>
+                                <p class="text-sm font-semibold text-white">Michael</p>
+                                <p class="text-xs text-gray-500">Business Owner · United States</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    
+    </section>
+    
+
+    <!-- EXPERIENSE -->
+    <section class="mt-24 lg:mt-28 xl:mt-36 expertise-sec" id="experience">
+        <div class="custom-container">
+            <h2 class="mb-8 text-center xl:mb-14 h2 white fadeInUp">My <span class="lightPurple">Work Experince</span></h2>
+
+            <div class="relative pt-2 pb-2 mx-auto md:max-w-4xl delayedOne">
+                <div class="hidden timeline-line md:block"></div>
+                
+                <!-- CODING PIXEL -->
+                <div class="flex flex-col items-start gap-8 mb-4 md:mb-10 md:flex-row fadeInLeft">
+                    <div class="expCol defaultBg rounded-2xl p-4 md:w-[48%]">
+                        <span class="block mb-1 text-sm font-semibold tracking-widest uppercase text-violet-400">Coding Pixel</span>
+                        <h3 class="mb-1 text-lg font-semibold text-white">Intern → Team Lead</h3>
+                        <span class="block mb-3 text-sm text-gray-500">2018 – 2022 · 4 Years · On-site</span>
+                        <p class="text-base leading-relaxed text-gray-400">Started as an intern and grew into a team lead role over 4 years. Built 350+ projects for clients across multiple industries, managing delivery, code quality, and junior developers.</p>
+                        
+                        <ul class="mt-3 space-y-1">
+                            <li class="flex items-center gap-2 text-sm text-gray-300"><span class="font-bold text-violet-400">→</span>Joined as intern, left as Team Lead</li>
+                            <li class="flex items-center gap-2 text-sm text-gray-300"><span class="font-bold text-violet-400">→</span> 350+ projects delivered</li>
+                            <li class="flex items-center gap-2 text-sm text-gray-300"><span class="font-bold text-violet-400">→</span> Led and mentored frontend team</li>
+                        </ul>
+
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="px-3 py-1 text-xs border rounded-full bg-violet-500/10 border-violet-500/25 text-violet-300">HTML/CSS/JS</span>
+                            <span class="px-3 py-1 text-xs border rounded-full bg-violet-500/10 border-violet-500/25 text-violet-300">Team Lead</span>
+                            <span class="px-3 py-1 text-xs text-gray-400 border rounded-full bg-white/5 border-white/10">350+ Projects</span>
+                            <span class="px-3 py-1 text-xs text-gray-400 border rounded-full bg-white/5 border-white/10">4 Years</span>
+                        </div>
+                    </div>
+                    <div class="flex-col items-center flex-shrink-0 hidden pt-2 md:flex">
+                        <div class="w-3.5 h-3.5 rounded-full bg-violet-500 glow-purple border-4 border-[#111c38]"></div>
+                    </div>
+                </div>
+
+                <!-- UPWORK -->
+                <div class="flex flex-col items-start gap-8 mb-4 md:mb-10 md:flex-row-reverse fadeInRight">
+                    <div class="expCol defaultBg rounded-2xl p-4 md:w-[48%]">
+                        <span class="block mb-1 text-sm font-semibold tracking-widest uppercase text-violet-400">Upwork</span>
+                        <h3 class="mb-1 text-lg font-semibold text-white">Independent Frontend Developer</h3>
+                        <span class="block mb-3 text-sm text-gray-500">2022 · Remote · US Clients</span>
+                        <p class="text-base leading-relaxed text-gray-400">Took on freelance contracts while transitioning to remote work. Earned 5.0 rating from US clients, with one client calling the experience "one of the best on Upwork."</p>
+                        
+                        <ul class="mt-3 space-y-1">
+                            <li class="flex items-center gap-2 text-sm text-gray-300"><span class="font-bold text-violet-400">→</span> 5.0 rating — 100% job success</li>
+                            <li class="flex items-center gap-2 text-sm text-gray-300"><span class="font-bold text-violet-400">→</span> US-based clients exclusively</li>
+                        </ul>
+
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="px-3 py-1 text-xs border rounded-full bg-violet-500/10 border-violet-500/25 text-violet-300">Remote</span>
+                            <span class="px-3 py-1 text-xs border rounded-full bg-violet-500/10 border-violet-500/25 text-violet-300">HTML/CSS/JS</span>
+                            <span class="px-3 py-1 text-xs text-gray-400 border rounded-full bg-white/5 border-white/10">5.0 Rating</span>
+                        </div>
+                    </div>
+
+                    <div class="flex-col items-center flex-shrink-0 hidden pt-2 md:flex">
+                        <div class="w-3.5 h-3.5 rounded-full bg-violet-500 glow-purple border-4 border-[#111c38]"></div>
+                    </div>
+
+                </div>
+
+                <!-- US AGENCY - REMOTE -->
+                <div class="flex flex-col items-start gap-8 md:flex-row fadeInLeft">
+                    <div class="expCol defaultBg rounded-2xl p-4 md:w-[48%]">
+                        <span class="block mb-1 text-sm font-semibold tracking-widest uppercase text-emerald-400">Method1 — US Agency</span>
+                        <h3 class="mb-1 text-lg font-semibold text-white">Remote Frontend Developer</h3>
+                        <span class="block mb-3 text-sm text-gray-500">2022 – 2025 · 3 Years · Remote</span>
+                        <p class="text-base leading-relaxed text-gray-400">Worked remotely for a US creative agency building premium brand websites for clients including Elijah Craig, Cape Tide, Evan Williams, and Old Fitzgerald. Delivered pixel-perfect Figma-to-code implementations consistently.</p>
+
+                        <ul class="mt-3 space-y-1">
+                            <li class="flex items-center gap-2 text-sm text-gray-300"><span class="font-bold text-emerald-400">→</span> Premium US brand portfolio</li>
+                            <li class="flex items-center gap-2 text-sm text-gray-300"><span class="font-bold text-emerald-400">→</span> 317 hours · $23/hr · 5.0 rated</li>
+                            <li class="flex items-center gap-2 text-sm text-gray-300"><span class="font-bold text-emerald-400">→</span> Pixel-perfect Figma implementations</li>
+                        </ul>
+
+                        <div class="flex flex-wrap gap-2 mt-4">
+                            <span class="px-3 py-1 text-xs border rounded-full bg-emerald-500/10 border-emerald-500/25 text-emerald-300">US Agency</span>
+                            <span class="px-3 py-1 text-xs border rounded-full bg-violet-500/10 border-violet-500/25 text-violet-300">HTML/CSS/JS</span>
+                            <span class="px-3 py-1 text-xs border rounded-full bg-violet-500/10 border-violet-500/25 text-violet-300">React</span>
+                            <span class="px-3 py-1 text-xs text-gray-400 border rounded-full bg-white/5 border-white/10">Remote</span>
+                            <span class="px-3 py-1 text-xs text-gray-400 border rounded-full bg-white/5 border-white/10">3 Years</span>
+                        </div>
+                    </div>
+
+                    <div class="flex-col items-center flex-shrink-0 hidden pt-2 md:flex">
+                        <div class="w-3.5 h-3.5 rounded-full bg-violet-500 glow-purple border-4 border-[#111c38]"></div>
+                    </div>
+
+                </div>
+            </div>    
+            
+            <!-- Stats Bar -->
+            <div class="grid max-w-4xl grid-cols-2 gap-4 mx-auto mt-4 md:mt-10 md:grid-cols-4 fadeInUp delayedOne">
+                <div class="bg-[#111827] border border-white/[0.07] rounded-xl px-4 py-6 xl:py-8 text-center">
+                    <span class="block text-2xl font-bold text-white md:text-3xl">6<span class="text-violet-400">+</span></span>
+                    <span class="block mt-1 text-xs text-gray-500 md:mt-2 md:text-sm xl:text-base">Years Total</span>
+                </div>
+                <div class="bg-[#111827] border border-white/[0.07] rounded-xl px-4 py-6 xl:py-8 text-center">
+                    <span class="block text-2xl font-bold text-white md:text-3xl">650<span class="text-violet-400">+</span></span>
+                    <span class="block mt-1 text-xs text-gray-500 md:mt-2 md:text-sm xl:text-base">Projects</span>
+                </div>
+                <div class="bg-[#111827] border border-white/[0.07] rounded-xl px-4 py-6 xl:py-8 text-center">
+                    <span class="block text-2xl font-bold text-white md:text-3xl">5.0<span class="text-violet-400">/5</span></span>
+                    <span class="block mt-1 text-xs text-gray-500 md:mt-2 md:text-sm xl:text-base">Client Rating</span>
+                </div>
+                <div class="bg-[#111827] border border-white/[0.07] rounded-xl px-4 py-6 xl:py-8 text-center">
+                    <span class="block text-2xl font-bold text-white md:text-3xl">US<span class="text-violet-400"> only</span></span>
+                    <span class="block mt-1 text-xs text-gray-500 md:mt-2 md:text-sm xl:text-base">Remote Experience</span>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- My APPROACH -->
+    <section class="mt-24 lg:mt-28 xl:mt-40 approach-sec" id="approach">
+        <div class="custom-container">
+            <h2 class="mb-12 leading-none text-center xl:mb-16 h2 white">My <span class="lightPurple">Approach</span> </h2>
+
+            <div class="flex flex-wrap justify-between gap-4 lg:gap-0">
+                <div class="w-full approachBox lg:w-[32%]">
+                    <h2 class="mt-4 mb-3 h3 white lg:leading-tight">Discovery <br class="block md:hidden lg:block"> & Planning</h2>
+                    <p class="p paleBlue lg:px-3">Understanding your goals, target audience, and design requirements <br class="hidden sm:block lg:hidden"> to ensure we build with purpose <br class="block md:hidden lg:hidden"> — not just visuals.</p>
+                </div>
+                <div class="w-full approachBox lg:w-[32%]">
+                    <h2 class="mt-4 mb-3 h3 white lg:leading-tight">Development <br class="block md:hidden lg:block"> & Iteration</h2>
+                    <p class="p paleBlue">Once aligned, I move into development — writing clean, scalable code<br class="hidden sm:block lg:hidden"> while keeping you updated at every stage. From first commit to final polish,<br class="hidden sm:block"> everything is built with precision.</p>
+                </div>
+                <div class="w-full approachBox lg:w-[32%]">
+                    <h2 class="mt-4 mb-3 h3 white lg:leading-tight">Delivery <br class="block md:hidden lg:block"> & Optimization</h2>
+                    <p class="p paleBlue lg:px-6">Final testing, performance optimization, and smooth handoff —<br class="hidden sm:block lg:hidden"> ensuring everything works perfectly across devices and platforms.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="mt-24 lg:mt-28 xl:mt-36 contact-sec" id="contact">
+        <div class="custom-container">
+            <h2 class="mb-4 leading-tight text-center h2 white fadeInUp">Let’s Build Something That <br> <span class="lightPurple">Stands Out</span> </h2>
+            <p class="text-center p mistBlue fadeInUp delayedOne">Whether you're a brand, agency, or startup <br class="block md:hidden"> — I can help you create <br class="hidden md:block"> fast, scalable, and <br class="block md:hidden"> visually refined digital experiences.</p>
+            <div class="flex justify-center mt-5 lg:mt-7 fadeInUp delayedTwo">
+                <a href="#" class="btn-primary">Let’s Work Together <img src="assets/images/btn-arrow.svg" alt="Arrow"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="mt-24 lg:mt-36">
+        <div class="custom-container">
+             <div class="flex flex-col items-center justify-between gap-5 pb-5 md:pb-7 md:flex-row">
+                <span class="text-sm offWhite">Copyright &copy;2024 Zohaib Rasheed</span>
+                <div class="flex gap-2 lg:gap-3 social-icons">
+                    <a href="https://wa.me/+923344545361" target="_blank"><img src="assets/images/whatsApp.png" alt="whatsApp" class="w-10 lg:w-12"></a>
+                    <a href="https://www.linkedin.com/in/zohaib-rasheed-144952233/" target="_blank"><img src="assets/images/linkedIn.png" alt="linkedIn" class="w-10 lg:w-12"></a>
+                    <a href="#" target="_blank"><img src="assets/images/gitHub.png" alt="gitHub" class="w-10 lg:w-12"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/scrollmagic.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

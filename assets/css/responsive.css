@@ -1,0 +1,393 @@
+
+
+/* @media screen and (max-width: 767px) {
+    .personal-box .p-lg {
+        font-size: 0.875rem;
+    }
+} */
+
+@media screen and (min-width: 639px) {
+    :root {
+        --fs-h1: 3rem;
+        --fs-body-lg: 1rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    /*~~~~~~~~~~~~~~~~
+          HEADER
+    ~~~~~~~~~~~~~~~~~~*/
+    .header {
+        padding: 1.25rem 0;
+    }
+    .logo img {
+        width: 65px;
+    }
+    .header.scrolled {
+        padding: 0.85rem 0;
+    }
+    .scrolled .logo img {
+        width: 60px;
+    }
+    .menuBtn {
+        width: 46px;
+        height: 30px;
+    }
+    .menuBtn span {
+        height: 3px;
+    }
+    .menuBtn span:nth-child(2) {
+        top: 13px;
+    }
+    .menuBtn span:last-child {
+        top: 26px;
+    }
+    .navbar {
+        padding-top: 7rem;
+    }
+
+    /*~~~~~~~~~~~~~~~~
+           HERO
+    ~~~~~~~~~~~~~~~~~~*/
+    .hero-sec {
+        display: none;
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+    }
+    .stack-list li {
+        padding: 0.5rem 0.7rem;
+    }
+    .stack-list li::after {
+        right: 0.4rem;
+    }
+    .infoVideo {
+        height: 16rem;
+    }
+
+    /*~~~ WORK PAGE ~~~~*/
+    .filterBtn {
+        font-size: 1rem;
+        border-radius: 0.5rem;
+        padding: 0.9em 1.4em;
+    }
+    .closeModal {
+        top: 1rem;
+        right: 2%;
+        height: 2.5rem;
+        width: 2.5rem;
+        padding: 0.3rem;
+        border-radius: 0.7rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    /*~~~ BASE ~~~*/
+    :root {
+        --fs-h1: 3.5rem;
+        --fs-h2: 2.5rem;
+        --fs-h3: 1.875rem;
+        --fs-body-lg: 1.0625rem;
+
+        /* Container */
+        --container-width: 960px;
+        --container-padding: 0 1.25rem;
+    }
+    .btn-primary {
+        font-size: 1.0625rem;
+        padding: 1.06rem 1.85rem;
+        border-radius: 0.65rem;
+    }
+    .btn-primary img {
+        width: 0.75rem;
+        margin-left: 0.64rem;
+    }
+
+
+    /*~~~~~~~~~~~~~~~~
+          HEADER
+    ~~~~~~~~~~~~~~~~~~*/
+    .header {
+        padding: 1.25rem;
+    }
+    .header.scrolled {
+        padding: 0.35rem 0;
+    }
+    .navbar {
+        position: static;
+        transform: translate(0);
+        height: auto;
+        padding-top: 0;
+        background: none;
+        display: flex;
+        justify-content: center;
+        width: calc(100% - 288px);
+    }
+    .navbar-items {
+        display: flex;
+        gap: 1.8rem;
+        padding: 1.5rem 2.4rem;
+        border-radius: 1.25rem;
+        border: 2px solid #2d304a;
+        background: linear-gradient(124deg, #090f39, #0c0e23);
+    }
+    .scrolled .navbar-items {
+        background: none;
+        border: none;
+    }
+    .navbar-link {
+        padding: 0;
+        border: none !important;
+    }
+    .navbar-link.active::before {
+        transform: translate(-50%, 0);
+        left: 50%;
+        top: unset;
+        bottom: -0.5rem;
+    }
+    .email-sec {
+        width: 144px;
+    }
+    .logo {
+        width: 144px;
+    }
+    .logo img {
+        width: 65px;
+    }
+    .hdr-contact img {
+        width: 35px;
+    }
+    .hdr-contact span {
+        font-size: 15px;
+    }
+
+
+    /*~~~ HERO ~~~*/
+    .hero-content .p-lg {
+        font-size: 18px !important;
+    }
+    .hero-pills li {
+        font-size: 0.75rem;
+    }
+    
+    /*~~~ ABOUT ~~~*/
+    .personal-box {
+        border-radius: 1rem;
+        padding: 1rem 1.1rem;
+    }
+    .infoVideo {
+        height: 17.5rem;
+    }
+    .info-title {
+        line-height: 1.2em;
+    }
+    .info-tag {
+        font-size: 0.875rem;
+    }
+    .stack-list li {
+        font-size: 0.9rem;
+        padding: 0.7rem 0.8rem;
+    }
+
+    /*~~~ RECENT PROJECTS ~~~*/
+    .personal-box {
+        border-radius: 1rem;
+        padding: 1rem 1.1rem;
+    }
+    .project-card {
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    .project-card:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 0 13px -1px var(--color-light-purple);
+    }
+
+    /*~~~ RECENT PROJECTS ~~~*/
+    .skillIcon {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+    .skillIcon img {
+        max-width: 1rem;
+    }
+    .skillIcon.css img {
+        max-width: 1.3rem;
+    }
+
+    /*~~~~ Work Page ~~~~*/
+    .viewText {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: #fff;
+        height: 6rem;
+        width: 6rem;
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        border: 1px solid #fff;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        pointer-events: none;
+    }
+    .proj-thumbnail::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.65);
+        z-index: 0;
+        border-radius: 0.5rem;
+        opacity: 0;
+        transition: 300ms ease;
+        pointer-events: none;
+    }
+    .emailCard:hover .viewText,
+    .emailCard:hover .proj-thumbnail::before {
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+    :root {
+        --fs-h1: 4rem;
+        --fs-h2: 2.75rem;
+        --fs-h3: 2.125rem;
+        --fs-body: 1rem;
+        --fs-body-lg: 1.125rem;
+
+        /* Container */
+        --container-width: 1120px;
+    }
+    .btn-primary {
+        font-size: 1.125rem;
+        padding: 1.1rem 1.8rem;
+        border-radius: 0.875rem;
+    }
+    .btn-primary img {
+        margin-left: 0.8rem;
+        width: 0.85rem;
+    }
+
+    /*~~~~~~~ HEDAER  ~~~~~~~*/
+    .header {
+        padding: 1.5rem 0;
+    }
+    .navbar {
+        width: calc(100% - 328px);
+    }
+    .logo {
+        opacity: 0;
+        width: 164px;
+        pointer-events: none;
+        transform: translateX(-30px);
+        transition: opacity 500ms ease, transform 350ms ease;
+    }
+    .hdr-contact {
+        opacity: 0;
+        width: 164px;
+        pointer-events: none;
+        transform: translateX(30px);
+        transition: opacity 500ms ease, transform 350ms ease;
+    }
+    .hdr-contact img {
+        width: 40px;
+    }
+    .hdr-contact span {
+        font-size: 16px;
+    }
+    .scrolled .logo,
+    .scrolled .hdr-contact {
+        transform: translateX(0);
+        opacity: 1;
+        pointer-events: auto;
+        transition: opacity 300ms ease, transform 500ms ease;
+    }
+    .navbar-items {
+        gap: 2.75rem;
+        padding: 1.5rem 3rem;
+    }
+
+    /*~~~ HERO ~~~*/
+    .hero-content .p-lg {
+        font-size: 20px !important;
+    }
+    .hero-pills li {
+        font-size: 0.75rem;
+        padding: 0.4rem 1rem;
+    }
+
+    /*~~~ About Section ~~~*/
+    .personal-box {
+        border-radius: 1rem;
+        padding: 1.2rem 1.25rem;
+    }
+    .info-tag {
+        font-size: 0.875rem;
+    }
+    .info-title {
+        margin: 0.5rem 0 0.85rem;
+    }
+    .infoVideo {
+        height: 19rem;
+    }
+    .stack-list li {
+        font-size: 1rem;
+        padding: 0.75rem 1rem;
+        border-radius: 0.5rem;
+    }
+    .stack-list li::after {
+        right: 0.85rem;
+    }
+    .timeZones li {
+        font-size: 0.875rem;
+        border-radius: 2rem;
+    }
+
+    /*~~~ RECENT PROJECTS ~~~*/
+    .project-card {
+        padding: 1.25rem;
+    }
+
+    /*~~~ WORK PAGE ~~~~*/
+    .filterBtn {
+        padding: 1em 1.8em;
+    }
+
+}
+
+
+@media screen and (min-width: 1536px) {
+    :root {
+        --fs-h1: 4.5rem;
+        --fs-body-lg: 1.125rem;
+
+        /* Container */
+        --container-width: 1440px;
+    }
+    .hero-content .p-lg {
+        font-size: 21px !important;
+    }
+    .stack-list li {
+        padding: 0.85rem 1rem;
+        border-radius: 0.6rem;
+    }
+    .infoVideo {
+        height: 20.5rem;
+    }
+}
+
+/* @media screen and (min-width: 1799px) {
+    
+} */
+
+

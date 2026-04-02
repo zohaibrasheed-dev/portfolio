@@ -1,0 +1,183 @@
+
+
+
+
+@media screen and (min-width: 1920px) {
+    /* :root {
+        --fs-h1: 6rem;
+        --fs-h2: 3rem;
+        --fs-h3: 2rem;
+        --fs-body-lg: 1.5rem;
+    } */
+}
+
+@media screen and (max-width: 1599px) {
+    /* .personal-box {
+        border-radius: 1rem;
+        padding: 1.2rem 1.6rem;
+    }
+    .info-tag {
+        letter-spacing: 1px;
+        font-size: 0.875rem;
+    }
+    .info-title {
+        line-height: 1.3em;
+        margin: 0.5rem 0 0.85rem;
+    }
+    .infoVideo {
+        margin-top: 1.25rem;
+        height: 16rem;
+        border-radius: 0.45rem;
+    }
+    .stack-list li {
+        font-size: 1rem;
+        padding: 0.6rem 0.9rem;
+        border-radius: 0.5rem;
+    }
+    .stack-list li::after {
+        right: 0.8rem;
+        height: 0.35rem;
+        width: 0.35rem;
+    }
+    .timeZones li {
+        font-size: 0.875rem;
+        border-radius: 2rem;
+        padding: 0.4rem 1.25rem;
+    } */
+}
+
+
+@media screen and (max-width: 1279px) {
+    /* :root {
+        --fs-h1: 3.75rem;
+        --fs-body-lg: 1.1875rem
+    } */
+}
+
+
+
+@media screen and (max-width: 991px) {
+    /* :root {
+        --fs-h1: 3.75rem;
+    }
+    .btn-primary {
+        font-size: 1.05rem;
+        padding: 1.06rem 1.74rem;
+        border-radius: 0.7rem;
+        border-width: 1px;
+    }
+    .btn-primary img {
+        width: 0.75rem;
+        margin-left: 0.65rem;
+    } */
+}
+
+
+@media screen and (max-width: 767px) {
+    /* :root {
+        --fs-h1: 3.25rem;
+        --fs-body-lg: 1.065rem;
+    } */
+
+    /*~~~~~~~~~~~~~~~~~~
+        REUSABLE - COMPONENTS
+    ~~~~~~~~~~~~~~~~~~~~*/
+    /* .btn-primary {
+        font-size: 1.05rem;
+        padding: 1.06rem 1.74rem;
+        border-radius: 0.7rem;
+        border-width: 1px;
+    }
+    .btn-primary img {
+        width: 0.75rem;
+        margin-left: 0.65rem;
+    } */
+
+
+    /*~~~~~~~~~~~~~~~~~~
+            HEADER
+    ~~~~~~~~~~~~~~~~~~~~*/
+    /* .navbar {
+        padding-top: 62px;
+        min-height: 100vh;
+        transform: translateX(-100%);
+        background: linear-gradient(124deg, #090f39, #0c0e23);
+    }
+    .navbar.active {
+        transform: translateX(0);
+    }
+    .navbar-items {
+        background: none;
+        width: 100%;
+        border: none;
+        padding: 0;
+        gap: 0 !important;
+        flex-direction: column;
+    }
+    .navbar-items li:first-child {
+        border-top: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .navbar-items li {
+        width: 100%;
+        font-size: 1rem;
+        padding: 1rem 1.25rem;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
+    .nabar-link.active {
+        font-weight: 600;
+    }
+    .nabar-link.active::before {
+        bottom: unset;
+        left: -0.65rem;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 0.2rem;
+        width: 0.2rem;
+    }
+    .hamburger-menu span {
+        transition: 350ms  ease-out;
+    }
+    .hamburger-menu {
+        border: 1px solid #2d304a;
+        background: linear-gradient(124deg, #090f39, #0c0e23);
+    }
+    .hamburger-menu.active span {
+        top: 16px !important;
+    }
+    .hamburger-menu.active span:first-child {
+        transform: rotate(45deg);
+        transform-origin: top;
+    }
+    .hamburger-menu.active span:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger-menu.active span:last-child {
+        transform: rotate(-45deg);
+        transform-origin: bottom;
+    } */
+}
+
+
+@media screen and (max-width: 639px) {
+    
+    /* :root {
+        --fs-h1: 2.375rem;
+        --fs-body-lg: 1.065rem;
+    } */
+
+    /* ===================
+        REUSABLE - COMPONENTS
+    ======================*/
+    /* .btn-primary {
+        font-size: 1rem;
+        padding: 1rem 1.625rem;
+        border-radius: 0.675rem;
+        border-width: 1px;
+    }
+    .btn-primary img {
+        width: 0.7rem;
+        margin-left: 0.65rem;
+    } */
+
+    
+}

@@ -1,0 +1,149 @@
+:root {
+    --font-primary: 'Inter', sans-serif;
+
+    /* Container */
+    --container-width: 100%;
+    --container-padding: 0 1.25rem;
+
+    /* Colors */
+    --color-white: #fff;
+    --color-off-white: #C1C2D3;
+    --color-pale-blue: #E4ECFF;
+    --color-mist-blue: #BEC1DD;
+    --color-light-purple: #CBACF9;
+    --color-dark-blue: #000319;
+
+    /* Font Sizes */
+    --fs-h1: 2.437rem;
+    --fs-h2: 2.25rem;
+    --fs-h3: 1.625rem;
+    --fs-body: 1rem;
+    --fs-body-lg: 1rem;
+}
+
+body {
+    font-weight: 400;
+    font-family: var(--font-primary);
+    background: url('../images/grid-pattern.png') top center no-repeat, url('../images/grid-pattern.png') bottom center no-repeat, var(--color-dark-blue);
+    background-size: contain;
+}
+
+.custom-container {
+    max-width: var(--container-width);
+    padding: var(--container-padding);
+    margin: 0 auto;
+}
+
+/* ===================
+      Typography
+======================*/
+.h1 {
+    font-size: var(--fs-h1);
+    font-weight: 700;
+}
+.h2 {
+    font-size: var(--fs-h2);
+    font-weight: 700;
+}
+.h3 {
+    font-size: var(--fs-h3);
+    font-weight: 700;
+}
+.p {
+    font-size: var(--fs-body);
+}
+.p-lg {
+    font-size: var(--fs-body-lg);
+    line-height: 1.4;
+}
+.ls {
+    letter-spacing: 3.5px;
+}
+strong {
+    font-weight: 700;
+}
+
+/* ===================
+      Colors
+======================*/
+.white {
+    color: var(--color-white);
+}
+.offWhite {
+    color: var(--color-off-white);
+}
+.paleBlue {
+    color: var(--color-pale-blue);
+}
+.mistBlue {
+    color: var(--color-mist-blue);
+}
+.lightPurple {
+    color: var(--color-light-purple);
+}
+
+/* ===================
+        TRANSITIONS
+======================*/
+.fadeInUp {
+    opacity: 0;
+    transform: translateY(-15px);
+    will-change: transform, opacity;
+    transition: transform 1000ms ease-out, opacity 1000ms ease-out;
+}
+.fadeInDown {
+    opacity: 0;
+    transform: translateY(15px);
+    will-change: transform, opacity;
+    transition: transform 1000ms ease-out, opacity 1000ms ease-out;
+}
+.fadeInDown.isAnimated,
+.fadeInUp.isAnimated,
+.boxAnimateTop.isAnimated,
+.boxAnimateBottom.isAnimated {
+    opacity: 1;
+    transform: translateY(0);
+}
+.delayedOne {
+    transition-delay: 300ms;
+}
+.delayedTwo {
+    transition-delay: 500ms;
+}
+.delayedThree {
+    transition-delay: 700ms;
+}
+.fadeIn {
+    opacity: 0;
+    transition: opacity 1000ms ease;
+}
+.fadeIn.isAnimated {
+    opacity: 1;
+}
+.boxAnimateBottom {
+    opacity: 0;
+    transform: translateY(10px);
+    will-change: transform, opacity;
+    transition: transform 1000ms ease-out, opacity 1000ms ease-out;
+}
+.boxAnimateTop.delay,
+.boxAnimateBottom.delay {
+    transition-delay: 300ms;
+}
+.fadeInLeft {
+    opacity: 0;
+    transform: translateX(-15px);
+    will-change: transform, opacity;
+    transition: transform 1000ms ease-out, opacity 1000ms ease-out;
+}
+.fadeInRight {
+    opacity: 0;
+    transform: translateX(15px);
+    will-change: transform, opacity;
+    transition: transform 1000ms ease-out, opacity 1000ms ease-out;
+}
+.fadeInLeft.isAnimated,
+.fadeInRight.isAnimated {
+    transform: translateX(0);
+    opacity: 1;
+}
